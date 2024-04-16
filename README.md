@@ -4,4 +4,4 @@ A machine learning approach to predict cellular uptake of pBAE polyplexes. DOI: 
 <br />
 Before running the main script file, download the .csv file with gene expression data and save locally, then change the file path for the gene expression data and choose a path for the data to be saved. <br />
 
-<img src="Images/GlobalFeatureImportance.svg" width="600">
+<img src="Images/GlobalFeatureImportance.svg" width="800">
