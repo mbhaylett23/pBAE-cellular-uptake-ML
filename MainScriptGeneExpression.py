@@ -23,7 +23,7 @@ from keras import layers
 import kerastuner as kt
 
 
-df = pd.read_excel('D:\gene_expression\Final-Year-Project-Machine-Learning-main\Final-Year-Project-Machine-Learning-main\GeneDataforModel.xlsx')
+df = pd.read_csv('D:\gene_expression\Final-Year-Project-Machine-Learning-main\Final-Year-Project-Machine-Learning-main\GeneDataforModel.csv')
 saveDIR=('D:\gene_expression\Final-Year-Project-Machine-Learning-main\Final-Year-Project-Machine-Learning-main\GenesSINcelltype')
 print(df)
 
