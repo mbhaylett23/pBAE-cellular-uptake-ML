@@ -275,7 +275,7 @@ plt.savefig(results_dir + "GlobalFeatureImportance.png")
 plt.show()
 
 
-shap.summary_plot(shap_values, X_train,feature_names= X.columns, max_display=100, show=False)
+shap.summary_plot(shap_values, X_test,feature_names= X.columns, max_display=100, show=False)
 plt.gcf().axes[-1].set_aspect(100)
 plt.gcf().axes[-1].set_box_aspect(100)
 plt.title('Local Explanation Summary', fontsize = 12)
@@ -288,7 +288,7 @@ plt.show()
 
 # shap.force_plot(explainer.expected_value[0],shap_values[3],X.iloc[[3]])
 
-# shap.force_plot(explainer.expected_value,shap_values,X_train)
+# shap.force_plot(explainer.expected_value,shap_values,X_test)
 
 
 shap.plots._waterfall.waterfall_legacy(explainer.expected_value[0], shap_values[1],feature_names= X.columns,max_display=100,show=False)
